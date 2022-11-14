@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 scroll-smooth;
+  font-family: "Karla", sans-serif;
+}
+body {
+  @apply bg-slate-800 text-slate-300;
+}
+h1 {
+  @apply text-6xl font-bold;
+}
+h2 {
+  @apply text-3xl;
+}
+
+.click-button {
+  @apply bg-teal-600 shadow-md active:bg-teal-700 rounded h-10 w-32 hover:-translate-y-1 hover:scale-110 transition ease-in-out;
+}
+
+/* --------------------------NAV------------------- */
+.nav {
+  @apply mb-4 h-28 md:h-12 flex justify-center items-center bg-teal-600;
+}
+.nav-list {
+  @apply font-bold flex flex-col md:flex-row  lg:flex-row justify-center space-x-12 items-center text-slate-300 hover:text-white;
+}
+
+.nav-li {
+  @apply hover:-translate-y-1 hover:scale-110 transition ease-in-out;
+}
+/* --------------------------Presentacion------------------- */
+.intro-name {
+  @apply flex flex-col justify-center  mt-10 font-bold hover:text-white;
+}
+
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeInUpBig {
+  --animate-duration: 2s;
+}
+
+.photo-area {
+  @apply flex flex-col items-center justify-center mt-20;
+}
+.photo-url {
+  @apply rounded-full flex items-center justify-center;
+  animation: slideInRight;
+  animation-duration: 2s;
+}
+
+.aboutme {
+  @apply flex flex-row items-center justify-center gap-8 pt-6;
+}
+
+.photo-about {
+  @apply w-full px-8 grid-cols-4 grid;
+}
+
+.aboutme-container {
+  @apply text-xl px-20 col-span-2 text-center pt-40;
+}
+
+.aboutme-text {
+}
+/* --------------------------SKILLS------------------- */
+
+.skills {
+  @apply bg-slate-600 mt-20 py-20 flex flex-col justify-center items-center hover:text-white;
+}
+
+.card {
+  @apply bg-slate-300 rounded-xl h-24 w-24 flex-col flex justify-center items-center hover:bg-white hover:shadow-xl hover:-translate-y-1 hover:scale-110 transition ease-in-out;
+}
+
+.card-image {
+  @apply h-20 w-20;
+}
+.card-container {
+  @apply grid grid-cols-4 gap-10 mt-10;
+}
+
+.skills-desc {
+  @apply text-white mt-32 absolute font-bold;
+}
+
+#html-image {
+  @apply h-24 w-24;
+}
+
+/* ------------------------PROJECTS------------------  */
+.projects {
+  @apply bg-slate-800  pt-20 flex flex-col justify-center items-center mb-20;
+}
+
+.projects-container {
+  @apply pt-20 w-3/4 px-4 grid grid-cols-2 gap-4 gap-y-20 text-slate-800;
+}
+
+.projects-card {
+  @apply bg-slate-300 rounded-xl flex flex-col justify-center items-center  hover:shadow-xl w-full h-full gap-3 mb-2 shadow-black shadow-lg hover:shadow-teal-600;
+}
+
+.project-desc {
+  @apply flex flex-col items-center h-80 font-bold;
+}
+
+.project-buttons {
+  @apply w-full h-full flex flex-row justify-center pt-6 gap-8;
+}
+
+.button-area {
+  @apply bg-teal-600 shadow-md active:bg-teal-700 rounded h-10 w-32 hover:-translate-y-1 hover:scale-110 transition ease-in-out;
+}
+#todo-app {
+  @apply h-72 pt-4 px-4;
+}
+
+#github {
+  @apply w-24;
+}
+
+#rocket {
+  @apply w-8;
+}
+
+.link-gitdemo {
+  @apply w-full h-full flex flex-row justify-center items-center;
+}
+/* ------------------------EDUCATION------------------  */
+.education {
+  @apply bg-slate-600  mt-20 py-20 flex flex-col justify-center items-center hover:text-white;
+}
+
+.schools-container {
+  @apply pt-20 flex-row gap-60 flex justify-center items-center content-center;
+}
+
+.schoolbox {
+  @apply rounded-sm flex-col flex gap-6 justify-center text-lg hover:cursor-pointer hover:bg-teal-600 items-center hover:-translate-y-1 hover:scale-110 transition ease-in-out cursor-pointer;
+}
+
+.schools-logo {
+  @apply h-52 w-52 rounded;
+}
+
+/* -----------------------------------CONTACT------------------------ */
+
+.contact {
+  @apply bg-slate-800 py-20  flex flex-col justify-center items-center hover:text-white;
+}
+
+.contact-container {
+  @apply mb-20 flex flex-row gap-20 justify-center items-center;
+}
+
+.contact-box {
+  @apply flex flex-col justify-center items-center hover:-translate-y-1 hover:scale-110 transition ease-in-out cursor-pointer;
+}
+
+.email-logo {
+  @apply rounded-xl w-28 h-24 mb-2;
+}
+
+.linkedin {
+  @apply rounded-3xl w-24 h-24 mb-2;
+}
