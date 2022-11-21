@@ -14,7 +14,7 @@
           <ul>
             <li><b>School:</b> Ironhack</li>
             <li><b>Date:</b> Sep 5 - Oct 14 2022</li>
-            <li><b> Stack:</b> Frontend Dev - HTML CSS JS - VueJS</li>
+            <li><b>Stack:</b> Frontend Dev - HTML CSS JS - VueJS</li>
           </ul>
         </a>
       </div>
@@ -28,7 +28,7 @@
           <ul>
             <li><b>School:</b> CICE.es</li>
             <li><b>Date:</b> May - Oct 2021</li>
-            <li><b> Stack:</b> Backend Dev - Python + Django</li>
+            <li><b>Stack:</b> Backend Dev - Python + Django</li>
           </ul>
         </a>
       </div>
