@@ -105,7 +105,7 @@ h2 {
 }
 
 .projects-card {
-  @apply bg-slate-300 rounded-xl flex flex-col justify-center items-center  hover:shadow-xl w-full h-full gap-3 mb-2 shadow-black shadow-lg hover:shadow-teal-600;
+  @apply bg-slate-300 rounded-xl flex flex-col justify-center items-center  hover:shadow-xl w-full h-full gap-3 mb-2 shadow-black shadow-lg  hover:-translate-y-1 hover:scale-110 transition ease-in-out;
 }
 
 .project-desc {
@@ -144,7 +144,7 @@ h2 {
 }
 
 .schoolbox {
-  @apply rounded-sm flex-col flex gap-6 justify-center text-lg hover:cursor-pointer hover:bg-teal-600 items-center hover:-translate-y-1 hover:scale-110 transition ease-in-out cursor-pointer;
+  @apply rounded-sm flex-col flex gap-6 justify-center text-lg hover:cursor-pointer  items-center hover:-translate-y-1 hover:scale-110 transition ease-in-out cursor-pointer;
 }
 
 .schools-logo {
