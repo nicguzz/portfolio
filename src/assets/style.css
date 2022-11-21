@@ -19,7 +19,7 @@ h2 {
 }
 
 .click-button {
-  @apply bg-teal-600 shadow-md active:bg-teal-700 rounded h-20 w-32 hover:-translate-y-1 hover:scale-110 transition ease-in-out text-lg;
+  @apply bg-teal-600 shadow-md active:bg-teal-700 rounded h-20 w-32 hover:-translate-y-1 hover:scale-110 transition ease-in-out text-lg md:text-base md:h-10;
 }
 
 /* --------------------------NAV------------------- */
