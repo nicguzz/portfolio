@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;700;800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
   @apply m-0 scroll-smooth;
-  font-family: "Karla", sans-serif;
+  font-family: "Patua One", sans-serif;
 }
 body {
   @apply bg-slate-800 text-slate-300;
