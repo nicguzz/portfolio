@@ -54,7 +54,7 @@ h2 {
   @apply flex flex-col items-center justify-center mt-20;
 }
 .photo-url {
-  @apply rounded-full flex flex-col items-center justify-center;
+  @apply rounded-full flex flex-col items-center justify-center w-1/2;
   animation: slideInRight;
   animation-duration: 2s;
 }

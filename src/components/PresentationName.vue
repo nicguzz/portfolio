@@ -9,7 +9,7 @@
   >
     <img
       class="photo-url"
-      src="https://res.cloudinary.com/dbmzbapuj/image/upload/v1666256304/hoMhZ3NO_400x400_gfkz0g.jpg"
+      src="https://res.cloudinary.com/dbmzbapuj/image/upload/v1679044068/nicdev_jeoqtr.jpg"
       alt="Photo"
     />
     <div class="intro-name">
@@ -41,7 +41,7 @@
     <button class="click-button" @click="aboutMe">About me</button>
     <a
       target="__blank"
-      href="https://drive.google.com/file/d/1k4QKFyLOjk-9NLev-fa-KCz-eJE5XDlL/view?usp=share_link"
+      href="https://mega.nz/file/FUsz2T5K#PX9mdRtMBtUq2Fg_FVoiYs1UtGreHMs46Yu5lC3CjiA"
     >
       <button class="click-button">Download CV</button>
     </a>
