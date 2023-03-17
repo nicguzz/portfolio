@@ -130,12 +130,16 @@
       <div class="projects-card">
         <div class="project-desc">
           <img id="todo-app" src="" alt="" />
-          <p>TBA</p>
-          <p>TBA</p>
+          <p>REC - Movie ratings and trailer</p>
+          <p>A React App</p>
         </div>
         <div class="project-buttons">
           <button type="submit" class="button-area">
-            <a class="link-gitdemo" href="" target="_blank">
+            <a
+              class="link-gitdemo"
+              href="https://github.com/nicguzz/rec"
+              target="_blank"
+            >
               <img
                 id="github"
                 src="https://pngimg.com/uploads/github/github_PNG15.png"
@@ -145,7 +149,11 @@
           </button>
 
           <button class="button-area">
-            <a target="_blank" class="link-gitdemo" href="">
+            <a
+              target="_blank"
+              class="link-gitdemo"
+              href="https://rec-dbd7o22c1-nicguzz.vercel.app/"
+            >
               <img
                 id="rocket"
                 src="https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f680.png"
