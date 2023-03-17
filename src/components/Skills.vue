@@ -5,6 +5,18 @@
     </a>
 
     <div class="card-container">
+      <div class="card" @mouseover="reactSkill" @mouseout="reactSkill">
+        <img
+          id="react-image"
+          title="React"
+          class="card-image"
+          src="https://img.icons8.com/officel/256/react.png"
+          alt=""
+        />
+        <div class="skills-desc" v-if="react_boolean">
+          <p>React</p>
+        </div>
+      </div>
       <div class="card" @mouseover="htmlSkill" @mouseout="htmlSkill">
         <img
           id="html-image"
@@ -92,6 +104,7 @@
 <script setup>
 import { ref } from "vue";
 
+let react_boolean = ref(false);
 let html_boolean = ref(false);
 let css_boolean = ref(false);
 let js_boolean = ref(false);
@@ -103,6 +116,11 @@ let git_boolean = ref(false);
 function htmlSkill() {
   html_boolean.value = !html_boolean.value;
   return html_boolean.value;
+}
+
+function reactSkill() {
+  react_boolean.value = !react_boolean.value;
+  return react_boolean.value;
 }
 
 function cssSkill() {

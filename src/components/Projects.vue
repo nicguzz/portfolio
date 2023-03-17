@@ -8,6 +8,47 @@
         <div class="project-desc">
           <img
             id="todo-app"
+            src="https://res.cloudinary.com/dbmzbapuj/image/upload/v1679043003/Screenshot_2023-03-17_at_09.29.43_sdd0fh.png"
+            alt="herosection"
+          />
+          <p>REC - Movie ratings and trailer</p>
+          <p>A React App</p>
+        </div>
+        <div class="project-buttons">
+          <button type="submit" class="button-area">
+            <a
+              class="link-gitdemo"
+              href="https://github.com/nicguzz/rec"
+              target="_blank"
+            >
+              <img
+                id="github"
+                src="https://pngimg.com/uploads/github/github_PNG15.png"
+                alt=""
+              />
+            </a>
+          </button>
+
+          <button class="button-area">
+            <a
+              target="_blank"
+              class="link-gitdemo"
+              href="https://rec-dbd7o22c1-nicguzz.vercel.app/"
+            >
+              <img
+                id="rocket"
+                src="https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f680.png"
+                alt=""
+              />
+              <p>Live Demo</p>
+            </a>
+          </button>
+        </div>
+      </div>
+      <div class="projects-card">
+        <div class="project-desc">
+          <img
+            id="todo-app"
             src="https://res.cloudinary.com/dbmzbapuj/image/upload/v1666183018/Screenshot_2022-10-19_at_14.36.50_bzxqsa.png"
             alt=""
           />
@@ -116,47 +157,6 @@
               target="_blank"
               class="link-gitdemo"
               href="https://iridescent-gumption-8b550f.netlify.app/"
-            >
-              <img
-                id="rocket"
-                src="https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f680.png"
-                alt=""
-              />
-              <p>Live Demo</p>
-            </a>
-          </button>
-        </div>
-      </div>
-      <div class="projects-card">
-        <div class="project-desc">
-          <img
-            id="react-app"
-            src="./public/herosection.png"
-            alt="herosection"
-          />
-          <p>REC - Movie ratings and trailer</p>
-          <p>A React App</p>
-        </div>
-        <div class="project-buttons">
-          <button type="submit" class="button-area">
-            <a
-              class="link-gitdemo"
-              href="https://github.com/nicguzz/rec"
-              target="_blank"
-            >
-              <img
-                id="github"
-                src="https://pngimg.com/uploads/github/github_PNG15.png"
-                alt=""
-              />
-            </a>
-          </button>
-
-          <button class="button-area">
-            <a
-              target="_blank"
-              class="link-gitdemo"
-              href="https://rec-dbd7o22c1-nicguzz.vercel.app/"
             >
               <img
                 id="rocket"
