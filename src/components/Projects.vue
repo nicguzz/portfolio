@@ -33,7 +33,7 @@
             <a
               target="_blank"
               class="link-gitdemo"
-              href="https://rec-dbd7o22c1-nicguzz.vercel.app/"
+              href="https://rec-nicguzz.vercel.app/"
             >
               <img
                 id="rocket"
