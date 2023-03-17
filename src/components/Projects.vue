@@ -129,7 +129,11 @@
       </div>
       <div class="projects-card">
         <div class="project-desc">
-          <img id="todo-app" src="../public/herosection.png" alt="" />
+          <img
+            id="react-app"
+            src="./public/herosection.png"
+            alt="herosection"
+          />
           <p>REC - Movie ratings and trailer</p>
           <p>A React App</p>
         </div>
